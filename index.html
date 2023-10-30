@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+  <head>
+    <meta charset = "utf-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <link rel = "stylesheet" type = "text/css" href = "./css/style.css">
+    <link defer rel = "icon" type = "image/svg" href = "./icon/favicon.svg">
+
+    <title> Random Student </title>
+    <script defer type = "module" src = "./js/setup.js"></script> <!-- load execution setup for javascript components -->
+  </head>
+
+  <body>
+  
+  <select class = "cstmSel" id = "grade">
+    <option value = "" disabled selected>Grado</option>
+    <option value = "tercero">Tercero</option>
+    <option value = "cuarto">Cuarto</option>
+    <option value = "quinto">Quinto</option>
+    <option value = "sexto">Sexto</option>
+    <option value = "septimo">Séptimo</option>
+    <option value = "octavo">Octavo</option>
+    <option value = "noveno">Noveno</option>
+  </select>
+
+  <select class = "cstmSel" id = "funct">
+    <option value = "" disabled selected>Tipo</option>
+    <option value = "single">Un estudiante</option>
+    <option value = "shuffle">Orden aleatorio</option>
+  </select>
+  
+  <button type = "button" id = "goBtn">Generar</button>
+  
+  <div id = "outputDiv" class = "outDiv"></div>
+
+  </body>
+
+</html>
